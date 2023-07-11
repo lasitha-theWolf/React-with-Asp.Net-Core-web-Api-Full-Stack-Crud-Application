@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\React with Asp.Net Core web Api Full Stack Crud Application.props" />
+</Project>
