@@ -33,6 +33,48 @@ namespace React_with_Asp.Net_Core_web_Api_Full_Stack_Crud_Application.Controller
             return await _studentDbContext.Student.ToListAsync();
         }
 
+        [HttpPost]
+        [Route("AddStudent")]
+
+        public async Task<Student> AddStudent(Student objStudent)
+        {
+            _studentDbContext.Student.Add(objStudent);
+            await _studentDbContext.SaveChangesAsync();
+            return objStudent;
+        }
+
+
+        [HttpPatch]
+        [Route("UpdateStudent/{id}")]
+
+        public async Task<Student> UpdateStudent(Student objStudent)
+        {
+            _studentDbContext.Entry(objStudent).State = EntityState.Modified;
+            await _studentDbContext.SaveChangesAsync();
+            return objStudent;
+        }
+
+        [HttpDelete]
+        [Route("DeleteStudent/{id}")]
+        public bool DeleteStudent(int id)
+        {
+            bool a = false;
+            var student = _studentDbContext.Student.Find(id);
+            if (student != null)
+            {
+                a = true;
+                _studentDbContext.Entry(student).State = EntityState.Deleted;
+                _studentDbContext.SaveChanges();
+            }
+            else
+            {
+                a = false;
+
+            }
+            return a;
+        }
+
+
 
     }
 }
