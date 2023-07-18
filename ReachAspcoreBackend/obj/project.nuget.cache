@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zKn7evsr+ZU75tOmIld9urFNMWKI18lo6+Qnyk8osuTibPT2mrwdgOwY9K/Zk9CjHyXXtXBbQZExf/UPg1DKiw==",
+  "dgSpecHash": "U/OkvITtDbNCbIjFO5mwXMiFUmvw7hl7TqC6Wq9g/d+LkFrtKXY21yYuNP6QMdrVtvJ1qqnlAzQ7TXSAUoDKhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lasit\\Desktop\\Projects\\React with Asp.Net Core web Api Full Stack Crud Application\\React with Asp.Net Core web Api Full Stack Crud Application.csproj",
+  "projectFilePath": "C:\\Users\\lasit\\Desktop\\Projects\\React with Asp.Net Core web Api Full Stack Crud Application\\ReachAspcoreBackend\\React with Asp.Net Core web Api Full Stack Crud Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lasit\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\lasit\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
