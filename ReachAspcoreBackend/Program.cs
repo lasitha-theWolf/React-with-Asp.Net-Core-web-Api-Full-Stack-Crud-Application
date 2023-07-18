@@ -17,6 +17,9 @@ builder.Services.AddDbContext<StudentDbContext>(options =>
 
 var app = builder.Build();
 
+//wolfcode added
+app.UseCors(policy => policy.AllowAnyHeader().AllowAnyMethod().SetIsOriginAllowed(origin=>true).AllowCredentials());
+
 
 
 // Configure the HTTP request pipeline.

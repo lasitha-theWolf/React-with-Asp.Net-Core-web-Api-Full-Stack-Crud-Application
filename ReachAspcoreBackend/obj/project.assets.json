@@ -3772,11 +3772,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lasit\\Desktop\\Projects\\React with Asp.Net Core web Api Full Stack Crud Application\\React with Asp.Net Core web Api Full Stack Crud Application.csproj",
+      "projectUniqueName": "C:\\Users\\lasit\\Desktop\\Projects\\React with Asp.Net Core web Api Full Stack Crud Application\\ReachAspcoreBackend\\React with Asp.Net Core web Api Full Stack Crud Application.csproj",
       "projectName": "React with Asp.Net Core web Api Full Stack Crud Application",
-      "projectPath": "C:\\Users\\lasit\\Desktop\\Projects\\React with Asp.Net Core web Api Full Stack Crud Application\\React with Asp.Net Core web Api Full Stack Crud Application.csproj",
+      "projectPath": "C:\\Users\\lasit\\Desktop\\Projects\\React with Asp.Net Core web Api Full Stack Crud Application\\ReachAspcoreBackend\\React with Asp.Net Core web Api Full Stack Crud Application.csproj",
       "packagesPath": "C:\\Users\\lasit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lasit\\Desktop\\Projects\\React with Asp.Net Core web Api Full Stack Crud Application\\obj\\",
+      "outputPath": "C:\\Users\\lasit\\Desktop\\Projects\\React with Asp.Net Core web Api Full Stack Crud Application\\ReachAspcoreBackend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lasit\\AppData\\Roaming\\NuGet\\NuGet.Config",

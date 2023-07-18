@@ -36,6 +36,8 @@ namespace React_with_Asp.Net_Core_web_Api_Full_Stack_Crud_Application.Controller
         [HttpPost]
         [Route("AddStudent")]
 
+        //AddStudent is the path to add the student
+
         public async Task<Student> AddStudent(Student objStudent)
         {
             _studentDbContext.Student.Add(objStudent);

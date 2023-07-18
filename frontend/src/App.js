@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import AddStudents from "./components/AddStudents";
+import Header from "./components/Header";
+import AllStudent from "./components/AllStudents";
+import { BrowserRouter, Route, Routes } from "react-router-dom"; // Use BrowserRouter instead of Router
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <BrowserRouter> 
+        <Header />
+
+        <Routes>
+          <Route path="/Student/AddStudent" element={<AddStudents />} />
+          <Route path="/" element={<AllStudent />} />
+          <Route path="/" element={<AllStudent />} />
+        </Routes>
+
+      </BrowserRouter>
     </div>
   );
 }
